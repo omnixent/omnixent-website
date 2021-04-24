@@ -1,0 +1,9 @@
+node_modules
+.prettierrc.js
+docs
+.vscode
+.github
+__tests__
+dist
+coverage
+.next
