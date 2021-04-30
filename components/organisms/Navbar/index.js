@@ -3,6 +3,10 @@ import { Box, Button, Flex, Image } from '@chakra-ui/react';
 
 const navbarLinks = [
   {
+    label: 'Demo',
+    href: '/demo',
+  },
+  {
     label: 'Features',
     href: '/features',
   },
