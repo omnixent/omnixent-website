@@ -36,7 +36,13 @@ export default function HomepageHero() {
             </Box>
           </Box>
           <Box mt={-150}>
-            <Image src="/illustrations/rocket.png" layout="intrinsic" width="700" height="700" />
+            <Image
+              src="/illustrations/rocket.png"
+              layout="intrinsic"
+              width="700"
+              height="700"
+              quality={95}
+            />
           </Box>
         </Flex>
       </Box>

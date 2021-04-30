@@ -33,9 +33,8 @@ export default function FeatureBubble(props) {
         className="floating-bubble"
         {...props.styles}
         style={{
-          animationDelay: props.styles.animationDelay
-        }}
-      >
+          animationDelay: props.styles.animationDelay,
+        }}>
         <Image src={props.image} width={50} />
         <Box pl={5} pr={5}>
           <Text fontWeight="bold" color="gray.900" fontSize="xl">
