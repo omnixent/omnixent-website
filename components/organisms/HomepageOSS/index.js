@@ -6,7 +6,7 @@ export default function HomepageOSS() {
   return (
     <Box backgroundColor="gray.500" pt={[50, 100]}>
       <Flex w={1400} maxW="90vw" margin="auto">
-        <Box display={['none', 'block']}>
+        <Box display={["none", "block"]}>
           <Image
             src="/illustrations/climber.png"
             width="600"
