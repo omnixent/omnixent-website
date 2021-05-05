@@ -27,9 +27,9 @@ const navbarLinks = [
 
 export default function Navbar() {
   return (
-    <Flex p={5} w={1400} maxW="90vw" margin="auto" justifyContent="space-between" mt={5}>
+    <Flex p={5} w={1400} maxW={["100vw", "90vw"]} margin="auto" justifyContent="space-between" mt={5}>
       <Image src="/logo/omx-logo-extended.svg" width={250} />
-      <Flex alignSelf="center">
+      <Flex display={["none", "block"]} alignSelf="center">
         {navbarLinks.map((link) => (
           <Link key={link.href} href={link.href} passHref>
             <Box as="a" ml={5}>
