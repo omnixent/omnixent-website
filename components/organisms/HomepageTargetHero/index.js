@@ -39,7 +39,7 @@ export default function HomepageTargetHero() {
         Connect with your audience, by answering their questions.
       </Text>
       <Flex width={1400} maxW="90vw" justifyContent="center" alignItems="center" margin="auto">
-        <Grid gridTemplateColumns="repeat(2, 1fr)" gap={5} mt={150} mb={150}>
+        <Grid gridTemplateColumns={["none", "repeat(2, 1fr)"]} gap={5} mt={[20, 150]} mb={[10, 150]}>
           {targets.map((target) => (
             <TargetBubble
               key={target.title}
